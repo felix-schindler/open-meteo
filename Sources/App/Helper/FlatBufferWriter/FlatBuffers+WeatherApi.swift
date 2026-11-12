@@ -1119,6 +1119,9 @@ extension MultiDomains {
             return .bestMatch
         case .cma_grapes_global:
             return .cmaGrapesGlobal
+        case .cwa_wrf3:
+            // shortcut: open-meteo/sdk has no CWA model in its FlatBuffers enum yet. The JSON API uses the real model name. Add the enum and update the SDK dependency when clients need it.
+            return .undefined
         case .bom_access_global:
             return .bomAccessGlobal
         case .arpae_cosmo_seamless:

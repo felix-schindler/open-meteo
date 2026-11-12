@@ -162,6 +162,7 @@ enum DomainRegistry: String, CaseIterable {
     case nasa_imerg_daily
 
     case cma_grapes_global
+    case cwa_wrf3
 
     case bom_access_global
     case bom_access_global_ensemble
@@ -489,6 +490,8 @@ enum DomainRegistry: String, CaseIterable {
             return CdsDomain.era5_land_daily
         case .cma_grapes_global:
             return CmaDomain.grapes_global
+        case .cwa_wrf3:
+            return CwaDomain.wrf3
         case .bom_access_global:
             return BomDomain.access_global
         case .bom_access_global_ensemble:

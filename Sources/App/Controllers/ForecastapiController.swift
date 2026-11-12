@@ -867,6 +867,7 @@ enum MultiDomains: String, RawRepresentableString, CaseIterable, Sendable {
     case chmi_aladin_seamless
 
     case cma_grapes_global
+    case cwa_wrf3
 
     case bom_access_global
 
@@ -1466,6 +1467,8 @@ enum MultiDomains: String, RawRepresentableString, CaseIterable, Sendable {
             return .singleWithPrecipitationProbability(BomDomain.access_global, BomVariable.self, precipitationProb: BomDomain.access_global_ensemble)
         case .cma_grapes_global:
             return .single(CmaDomain.grapes_global, CmaVariable.self)
+        case .cwa_wrf3:
+            return .single(CwaDomain.wrf3, CwaVariable.self)
         case .dmi_harmonie_arome_europe:
             return .single(DmiDomain.harmonie_arome_europe, DmiVariable.self)
         case .knmi_harmonie_arome_europe:

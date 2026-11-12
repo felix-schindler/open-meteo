@@ -196,6 +196,7 @@ public func configure(_ app: Application) throws {
     app.asyncCommands.use(DownloadIconCommand(), as: "download")
     app.asyncCommands.use(DownloadIconCommand(), as: "download-dwd")
     app.asyncCommands.use(DownloadCmaCommand(), as: "download-cma")
+    app.asyncCommands.use(DownloadCwaCommand(), as: "download-cwa")
     app.asyncCommands.use(DownloadBomCommand(), as: "download-bom")
     app.asyncCommands.use(DownloadIconWaveCommand(), as: "download-iconwave")
     app.asyncCommands.use(DownloadEcmwfCommand(), as: "download-ecmwf")

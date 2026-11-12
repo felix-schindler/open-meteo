@@ -62,6 +62,7 @@ Commands:
                 download-chmi Download ČHMÚ ALADIN Czech model
                  download-cma Download a specified CMA model run
                download-cmip6 Download CMIP6 data and convert
+                 download-cwa Download a specified CWA model run
                  download-dem Convert digital elevation model
                  download-dmi Download Dmi models
              download-dwd-sis Download DWD satellite radiation data

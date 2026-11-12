@@ -614,6 +614,7 @@ paths:
                 - ecmwf_ifs025
                 - ecmwf_aifs025_single
                 - cma_grapes_global
+                - cwa_wrf3
                 - bom_access_global
                 - ncep_gfs_seamless
                 - ncep_gfs_global

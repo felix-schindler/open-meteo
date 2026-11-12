@@ -74,6 +74,9 @@ This document lists all required cronjobs to download data. However, downloading
 # CMA
 #20 4,10,16,22 * * * /usr/local/bin/openmeteo-api download-cma grapes_global --server xxxxxxx --concurrent 8 > ~/log/grapes_global.log 2>&1 || cat ~/log/grapes_global.log
 
+# CWA
+#30 0,6,12,18 * * * /usr/local/bin/openmeteo-api download-cwa wrf3 --concurrent 4 > ~/log/cwa_wrf3.log 2>&1 || cat ~/log/cwa_wrf3.log
+
 # BOM
 #50 8,20 * * * /usr/local/bin/openmeteo-api download-bom access_global --server xxxxxxx --concurrent 4> ~/log/bom_access_global.log 2>&1 || cat ~/log/bom_access_global.log
 #10 1,13 * * * /usr/local/bin/openmeteo-api download-bom access_global --server xxxxxxx --concurrent 4 > ~/log/bom_access_global_6z.log 2>&1 || cat ~/log/bom_access_global_6z.log
