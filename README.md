@@ -54,6 +54,7 @@ Apps:
 - [Calendrier Tempo](https://www.calendrier-tempo.fr/) Forecasts the EDF Tempo day colour (blue, white or red), which sets the electricity price for Tempo customers in France, up to 15 days ahead, using Open-Meteo forecasts for 9 French cities. Free, French-language site.
 - [Calima Canarias](https://calimacanarias.com) Real-time Saharan dust (calima) forecast and air quality monitoring for the Canary Islands and the rest of Spain.
 - [Cirrus](https://github.com/woheller69/omweather) Android Weather App
+- [ClearSkys](https://clearskys.app) Free stargazing forecast and astronomy planning tool that combines Open-Meteo weather data with cloud cover, visibility, darkness, astronomical events and celestial object tracking to help users find the best nights for observing the night sky. Features location-specific forecasts, satellite and planetary visibility, and a simple rating to show whether conditions are worth heading outside for.
 - [Clima](https://f-droid.org/packages/co.prestosole.clima/) Beautiful, minimal, and fast weather app
 - [CycleWeather](https://cycleweather.app) CycleWeather is a free iOS weather app for cyclists, showing a color-coded 7-day hourly forecast — temperature (feels-like), precipitation, wind, air quality, and UV — with rain alerts and radar, all in one glanceable view.
 - [Drizz.li](https://drizz.li) Open-source and statically-hosted weather site that turns Open-Meteo API data into detailed, localized forecasts with custom charts and an embedded weather map.
@@ -68,7 +69,8 @@ Apps:
 - [Heliora](https://heliora.app/) Free browser planner for the Sun, Moon and Milky Way against the real terrain horizon. Shows forecast cloud cover for the next 16 days and 20-year ERA5 clear-sky odds for any pin and date.
 - [Home Assistant](https://www.home-assistant.io/integrations/open_meteo/) A popular open source smart home platform.
 - [Lively Weather](https://www.rocksdanister.com/weather) Windows native weather app powered by DirectX12 animations.
-- [LunaLink](https://www.lunalink.de) A site for hunters, fishermen and nature observers: It provides sun and moon values (including moon brightness) as well as the weather for individual locations in Central Europe.
+- [LSPC Weather](https://amelia-m.github.io/lspc-weather/) Skydiving weather dashboard for one drop zone (Lincoln Sport Parachute Club, Nebraska): winds aloft by altitude for freefall drift, cloud cover and a 10-day outlook from Open-Meteo beside the NWS forecast and the nearest METAR. Free, open source, no account. ([source](https://github.com/amelia-m/lspc-weather)).
+- [LunaLink](https://www.lunalink.de/) Sun and moon calendar for hunters, anglers and nature observers: hour-by-hour moon brightness, twilight and solunar times next to a 10-day hourly weather forecast for any location in Europe, from the Mediterranean to the North Pole. Free, no account, available in 24 languages.
 - [Meteo-Fly](https://meteo-fly.com) Free flight-weather charts for paraglider & hang-glider pilots.
 - [Meteograph](https://github.com/timbortnik/widget) Open-source Android home-screen weather widget showing a meteogram with 48-hour and 7-day forecasts; no ads, no tracking, no account. ([Google Play](https://play.google.com/store/apps/details?id=org.bortnik.meteogram))
 - [MeteoHist](https://yotka.org/meteo-hist) A web app to create interactive temperature and precipitation graphs for places around the world
@@ -89,6 +91,7 @@ Apps:
 - [ShackScreen](https://github.com/maxhayim/ShackScreen) Free, open-source launcher dashboard for the TV in a ham radio shack (Android TV, Google TV, Fire TV and tablets). Its Weather widget shows current conditions, the next hours, sunrise or sunset and UV from Open-Meteo.
 - [SkyMuse](https://github.com/cakephone/skymuse) Minimal, privacy-respecting weather app. Built with web technologies.
 - [Slideshow](https://slideshow.digital/) Digital Signage app for Android
+- [Snowlist](https://snowlist.org) Ski resort ratings from open data, with snow forecasts and ERA5 snowfall history for 150+ resorts.
 - [solXpect](https://github.com/woheller69/solxpect) Android app which forecasts the output of your solar power plant
 - [ThaiFloodRisk](https://thaifloodrisk.com/en) Flood risk scores and daily flood odds for Bangkok and Thailand, built on Open-Meteo forecast, historical weather, river discharge (Flood API) and marine data.
 - [The Weather](https://weather.jamesdinovo.com) A detailed, installable, progressive web application
@@ -103,8 +106,10 @@ Apps:
 - [WeatherMaster](https://github.com/PranshulGG/WeatherMaster) A Weather app for android inspired by the Google Pixel weather app.
 - [Weatherian](https://weatherian.com/) Multi-model meteogram (multi-platform)
 - [Weather Journey](https://weatherjourney.com/) Historical weather records, temperature trends & climate anomalies for 6,000+ cities since 1940.
+- [WeatherVS](https://weathervs.com/) Compare weather conditions between any two cities to evaluate travel comfort and suitability.
 - [weewx-DWD](https://github.com/roe-dl/weewx-DWD) Weather forecasts etc. for WeeWX
 - [WetBulb](https://github.com/Isma1306/wetbulb-forecast) A simple app that shows you the wetbulb temp 24h forecast and tells you if it is dangerous.
+- [Where Boats Anchor](https://whereboatsanchor.com) Where boats stayed the night, and in what wind, worldwide from AIS. Open-Meteo gives each bay tonight's forecast and the 7-day wind. Free web app, no login.
 - [WorldWeatherMonitor](https://world-weather-monitor.vercel.app/) An interactive world weather map that displays real-time weather conditions for cities around the globe.
 
 Repositories:
